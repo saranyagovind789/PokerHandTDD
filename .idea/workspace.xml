@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="Card class and CardTest Created">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" afterDir="false" />
+    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="toString testCase added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CardTest.ranking1">
     <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
@@ -63,9 +64,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CardTest.compareTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHandTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techreturners.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
+      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
+      <option name="METHOD_NAME" value="compareTo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.ranking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHandTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techreturners.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
+      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
+      <option name="METHOD_NAME" value="ranking" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.ranking1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHandTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techreturners.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
+      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
+      <option name="METHOD_NAME" value="ranking1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CardTest.ranking1" />
+        <item itemvalue="JUnit.CardTest.ranking" />
         <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.CardTest.compareTo" />
       </list>
     </recent_temporary>
   </component>
@@ -78,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678104104821</updated>
     </task>
+    <task id="LOCAL-00001" summary="toString testCase added">
+      <created>1678115973129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678115973129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +153,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Card class and CardTest Created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Card class and CardTest Created" />
+    <MESSAGE value="testEquals testcase added and Card class created" />
+    <MESSAGE value="toString testCase added" />
+    <option name="LAST_COMMIT_MESSAGE" value="toString testCase added" />
   </component>
 </project>

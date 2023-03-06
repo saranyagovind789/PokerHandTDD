@@ -1,6 +1,6 @@
 package org.techreturners.poker;
 
-public class Card {
+public class Card implements Comparable<Card> {
     private final int rank;
     private final char suit;
     private final int value;
@@ -35,7 +35,8 @@ public class Card {
         for (int i=0;i<values.length();i++){
             if (values.charAt(i) == value){
                 for (int j=0;j<suits.length();j++){
-                    if (suits.charAt(j) == suit) return (i+2)*suits.length() + j;
+                    if (suits.charAt(j) == suit)
+                        return (i+2)*suits.length() + j;
                 }
             }
         }
