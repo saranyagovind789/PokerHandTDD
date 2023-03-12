@@ -1,6 +1,8 @@
 package org.techreturners.poker;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -26,13 +28,31 @@ public class CardTest  {
     }
 
     @Test
-    void ranking() {
+    void rankingof2CCard() {
         Card cardObj = new Card("2C");
         assertEquals(8,cardObj.getRank());
     }
     @Test
-    void ranking1() {
+    void rankingofASCard() {
         Card cardObj = new Card("AS");
         assertEquals(59,cardObj.getRank());
     }
+
+    @Test
+    public void testIsFlush(){
+        Hand handObj = new Hand();;
+        Card[] currentHand = {new Card("2C"),new Card("3C"),new Card("4C"),new Card("5C"),new Card("6C")};
+        Arrays.sort(currentHand);
+        assertTrue(handObj.isFlush(currentHand));
+    }
+
+    @Test
+    public void testIsStraight(){
+        Hand handObj = new Hand();;
+        Card[] currentHand = {new Card("2C"),new Card("3C"),new Card("4C"),new Card("5C"),new Card("6C")};
+        Arrays.sort(currentHand);
+        assertTrue(handObj.isStraight(currentHand));
+    }
+
+
 }

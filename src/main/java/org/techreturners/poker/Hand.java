@@ -19,7 +19,7 @@ public class Hand {
 
     public Hand(String currentHandString,String  playerName){
         String[] cards = currentHandString.split(" ");
-        this.playerHand = new Card[cards.length()];
+        this.playerHand = new Card[cards.length];
         for(int i =0; i< playerHand.length; i++){
             playerHand[i] = new Card(cards[i]);
         }
@@ -33,6 +33,23 @@ public class Hand {
 
     public String getPlayerName(){
         return playerName;
+    }
+
+
+    public boolean isFlush(Card[] currentHand){
+        // Flush: Hand contains 5 cards of the same suit.
+        for (int i=0;i<currentHand.length-1;i++){
+            if (currentHand[i+1].getSuit() != currentHand[i].getSuit()){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean isStraight(Card[] currentHand){
+        //Straight : Hand contains 5 cards with Consecutive Values
+        return currentHand[4].getValue() - currentHand[0].getValue()==4;
+
     }
 
 }
