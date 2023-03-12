@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="is Flush testcase passed">
+    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="Full House Test case adde">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" afterDir="false" />
@@ -47,8 +47,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CardTest.testIsStraight">
-    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CardTest.testCompareHighCard">
+    <configuration name="CardTest.testCompareHighCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
         <pattern>
@@ -58,28 +58,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.techreturners.poker" />
       <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardTest.ranking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerHandTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.techreturners.poker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
-      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="METHOD_NAME" value="ranking" />
+      <option name="METHOD_NAME" value="testCompareHighCard" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.ranking1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.testIsFullHouse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
         <pattern>
@@ -89,13 +74,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.techreturners.poker" />
       <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="METHOD_NAME" value="ranking1" />
+      <option name="METHOD_NAME" value="testIsFullHouse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.testIsFlush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.testIsPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +90,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.techreturners.poker" />
       <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="METHOD_NAME" value="testIsFlush" />
+      <option name="METHOD_NAME" value="testIsPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CardTest.testIsStraight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.testIsThreeOfAKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +106,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.techreturners.poker" />
       <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="METHOD_NAME" value="testIsStraight" />
+      <option name="METHOD_NAME" value="testIsThreeOfAKind" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardTest.testIsTwoPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHandTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techreturners.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
+      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
+      <option name="METHOD_NAME" value="testIsTwoPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardTest.testIsStraight" />
-        <item itemvalue="JUnit.CardTest.testIsFlush" />
-        <item itemvalue="JUnit.CardTest.ranking1" />
-        <item itemvalue="JUnit.CardTest.ranking" />
-        <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.CardTest.testCompareHighCard" />
+        <item itemvalue="JUnit.CardTest.testIsFullHouse" />
+        <item itemvalue="JUnit.CardTest.testIsThreeOfAKind" />
+        <item itemvalue="JUnit.CardTest.testIsTwoPair" />
+        <item itemvalue="JUnit.CardTest.testIsPair" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678140738558</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Straight Test case added .">
+      <created>1678653032730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678653032731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +188,26 @@
     <MESSAGE value="toString testCase added" />
     <MESSAGE value="Hand Class Created" />
     <MESSAGE value="is Flush testcase passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="is Flush testcase passed" />
+    <MESSAGE value="Straight Test case added ." />
+    <MESSAGE value="Pair test Case added" />
+    <MESSAGE value="Two Pair test case added" />
+    <MESSAGE value="Three of a Kind TestCase added" />
+    <MESSAGE value="Full House Test case adde" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full House Test case adde" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java</url>
+          <line>82</line>
+          <properties class="org.techreturners.poker.CardTest" method="testIsFullHouse">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
