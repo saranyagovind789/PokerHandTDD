@@ -90,10 +90,19 @@ public class CardTest  {
     @Test
     public void testCompareHighCard(){
         Hand handObj = new Hand();
-        Hand blackHand = new Hand("4C 2C 3D 6D 2S","black");
-        Hand whiteHand = new Hand("4C 8C 3D 6D 2S","white");
+        Hand blackHand = new Hand("5C 2C 3D 6D 2S","black");
+        Hand whiteHand = new Hand("5C 8C 3D 6D 2S","white");
 
         assertEquals(-1, handObj.compareHighCard(blackHand,whiteHand));
     }
+
+    @Test
+    public void testCompareDecreasingHighCard(){
+        Hand handObj = new Hand();
+        Hand blackHand = new Hand("4C 2C 2D 6D 2S","black");
+        Hand whiteHand = new Hand("4C 2C 3D 6D 2S","white");
+        assertEquals(-1, handObj.compareDecreasingHighCard(blackHand,whiteHand));
+    }
+
 
 }

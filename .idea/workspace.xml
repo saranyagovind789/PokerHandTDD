@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="Full House Test case adde">
+    <list default="true" id="78341d08-9ea0-4519-95e6-72ae13768dd9" name="Changes" comment="HighCard added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/techreturners/poker/Hand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/techreturners/poker/CardTest.java" afterDir="false" />
@@ -48,6 +48,22 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.CardTest.testCompareHighCard">
+    <configuration name="CardTest.testCompareDecreasingHighCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PokerHandTDD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.techreturners.poker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
+      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
+      <option name="METHOD_NAME" value="testCompareDecreasingHighCard" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CardTest.testCompareHighCard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PokerHandTDD" />
       <extension name="coverage">
@@ -75,22 +91,6 @@
       <option name="PACKAGE_NAME" value="org.techreturners.poker" />
       <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
       <option name="METHOD_NAME" value="testIsFullHouse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CardTest.testIsPair" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PokerHandTDD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.techreturners.poker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.techreturners.poker" />
-      <option name="MAIN_CLASS_NAME" value="org.techreturners.poker.CardTest" />
-      <option name="METHOD_NAME" value="testIsPair" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -131,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CardTest.testCompareHighCard" />
+        <item itemvalue="JUnit.CardTest.testCompareDecreasingHighCard" />
         <item itemvalue="JUnit.CardTest.testIsFullHouse" />
         <item itemvalue="JUnit.CardTest.testIsThreeOfAKind" />
         <item itemvalue="JUnit.CardTest.testIsTwoPair" />
-        <item itemvalue="JUnit.CardTest.testIsPair" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678653032731</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HighCard added">
+      <created>1678654597698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678654597698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +200,8 @@
     <MESSAGE value="Two Pair test case added" />
     <MESSAGE value="Three of a Kind TestCase added" />
     <MESSAGE value="Full House Test case adde" />
-    <option name="LAST_COMMIT_MESSAGE" value="Full House Test case adde" />
+    <MESSAGE value="HighCard added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HighCard added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
